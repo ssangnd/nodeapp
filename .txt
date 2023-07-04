@@ -1,3 +1,9 @@
 docker build -t sangndxyz/nodeapp  .
 
 docker  run -it -p 3000:3000 -d --name nodeapp  sangndxyz/nodeapp
+
+docker login
+
+docker push sangndxyz/nodeapp
+
+https://hub.docker.com/repository/docker/sangndxyz/nodeapp/tags?page=1&ordering=last_updated
